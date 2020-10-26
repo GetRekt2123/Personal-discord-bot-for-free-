@@ -10,7 +10,8 @@ const moment = require("moment");
 
 client.on("ready", message => {
   console.log("I am ready");
-  client.user.setActivity("CREDIT TO GETREKT#0001",//WRITE CUSTOME STATUS IN LINE 11
+  client.user.setActivity("CREDIT TO GETREKT#0001",//WRITE CUSTOME STATUS HERE
+                         
   {
     type: "WATCHING"//PLAYING,WATCHING,LISTENING
   });
@@ -115,4 +116,4 @@ User in::bell: ` + vChannel + " Voice"
   }
 });
 
-client.login("");//YOUR BOT TOKENHERE
+client.login("");//YOUR BOT TOKEN HERE
