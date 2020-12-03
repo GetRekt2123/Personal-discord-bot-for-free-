@@ -3,7 +3,6 @@
 const discord = require("discord.js")
 const client = new discord.Client();
 const bot = new discord.Client({ disableEveryone: true });
-const db = require("quick.db");
 const prefix = " ";//your prefix here
 const MessageEmbed = require("discord.js");
 const moment = require("moment");
